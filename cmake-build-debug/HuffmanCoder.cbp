@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="HuffmanCoder"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/chris/THU/SEMEST~3/PROGRA~1/C__~1/MinGW/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/chris/THU/SEMEST~3/PROGRA~1/C__~1/MinGW/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/chris/THU/SEMEST~3/PROGRA~1/C__~1/MinGW/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/chris/THU/SEMEST~3/PROGRA~1/C__~1/MinGW/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HuffmanCoder">
+				<Option output="C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/HuffmanCoder.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/chris/THU/Semester 3/Programmieren 3/C++/MinGW/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/chris/THU/Semester 3/Programmieren 3/C++/MinGW/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/chris/THU/Semester 3/Programmieren 3/C++/MinGW/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/chris/THU/Semester 3/Programmieren 3/C++/MinGW/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/chris/THU/Semester 3/Programmieren 3/C++/MinGW/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/chris/THU/Semester 3/Programmieren 3/C++/MinGW/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/chris/THU/SEMEST~3/PROGRA~1/C__~1/MinGW/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 HuffmanCoder"/>
+					<CompileFile command="C:/Users/chris/THU/SEMEST~3/PROGRA~1/C__~1/MinGW/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/chris/THU/SEMEST~3/PROGRA~1/C__~1/MinGW/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/chris/THU/SEMEST~3/PROGRA~1/C__~1/MinGW/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HuffmanCoder/fast">
+				<Option output="C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/HuffmanCoder.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/chris/THU/Semester 3/Programmieren 3/C++/MinGW/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/chris/THU/Semester 3/Programmieren 3/C++/MinGW/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/chris/THU/Semester 3/Programmieren 3/C++/MinGW/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/chris/THU/Semester 3/Programmieren 3/C++/MinGW/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/chris/THU/Semester 3/Programmieren 3/C++/MinGW/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/chris/THU/Semester 3/Programmieren 3/C++/MinGW/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/chris/THU/SEMEST~3/PROGRA~1/C__~1/MinGW/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 HuffmanCoder/fast"/>
+					<CompileFile command="C:/Users/chris/THU/SEMEST~3/PROGRA~1/C__~1/MinGW/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/chris/THU/SEMEST~3/PROGRA~1/C__~1/MinGW/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/chris/THU/SEMEST~3/PROGRA~1/C__~1/MinGW/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/chris/THU/SEMEST~3/PROGRA~1/C__~1/MinGW/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/chris/THU/SEMEST~3/PROGRA~1/C__~1/MinGW/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/chris/THU/SEMEST~3/PROGRA~1/C__~1/MinGW/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/chris/THU/SEMEST~3/PROGRA~1/C__~1/MinGW/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/chris/THU/SEMEST~3/PROGRA~1/C__~1/MinGW/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/chris/THU/SEMEST~3/PROGRA~1/C__~1/MinGW/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/chris/THU/SEMEST~3/PROGRA~1/C__~1/MinGW/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/chris/THU/SEMEST~3/PROGRA~1/C__~1/MinGW/X86_64~1.0-R/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/chris/CLionProjects/HuffmanCoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/chris/CLionProjects/HuffmanCoder/main.cpp">
+			<Option target="HuffmanCoder"/>
+		</Unit>
+		<Unit filename="C:/Users/chris/CLionProjects/HuffmanCoder/textAnalyser.cpp">
+			<Option target="HuffmanCoder"/>
+		</Unit>
+		<Unit filename="C:/Users/chris/CLionProjects/HuffmanCoder/textAnalyser.h">
+			<Option target="HuffmanCoder"/>
+		</Unit>
+		<Unit filename="C:/Users/chris/CLionProjects/HuffmanCoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
