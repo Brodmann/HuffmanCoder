@@ -1,3 +1,0 @@
-C:\Users\chris\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6461.46\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\HuffmanCoder.dir/objects.a
-C:\Users\chris\THU\SEMEST~3\PROGRA~1\C__~1\MinGW\X86_64~1.0-R\mingw64\bin\ar.exe qc CMakeFiles\HuffmanCoder.dir/objects.a @CMakeFiles\HuffmanCoder.dir\objects1.rsp
-C:\Users\chris\THU\SEMEST~3\PROGRA~1\C__~1\MinGW\X86_64~1.0-R\mingw64\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\HuffmanCoder.dir/objects.a -Wl,--no-whole-archive -o HuffmanCoder.exe -Wl,--out-implib,libHuffmanCoder.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\HuffmanCoder.dir\linklibs.rsp
