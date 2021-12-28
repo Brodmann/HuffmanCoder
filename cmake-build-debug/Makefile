@@ -152,30 +152,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HuffmanCoder.dir\build.make CMakeFiles/HuffmanCoder.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-textAnalyser.obj: textAnalyser.cpp.obj
-.PHONY : textAnalyser.obj
-
-# target to build an object file
-textAnalyser.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HuffmanCoder.dir\build.make CMakeFiles/HuffmanCoder.dir/textAnalyser.cpp.obj
-.PHONY : textAnalyser.cpp.obj
-
-textAnalyser.i: textAnalyser.cpp.i
-.PHONY : textAnalyser.i
-
-# target to preprocess a source file
-textAnalyser.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HuffmanCoder.dir\build.make CMakeFiles/HuffmanCoder.dir/textAnalyser.cpp.i
-.PHONY : textAnalyser.cpp.i
-
-textAnalyser.s: textAnalyser.cpp.s
-.PHONY : textAnalyser.s
-
-# target to generate assembly for a file
-textAnalyser.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HuffmanCoder.dir\build.make CMakeFiles/HuffmanCoder.dir/textAnalyser.cpp.s
-.PHONY : textAnalyser.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -188,9 +164,6 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... textAnalyser.obj
-	@echo ... textAnalyser.i
-	@echo ... textAnalyser.s
 .PHONY : help
 
 

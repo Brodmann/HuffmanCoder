@@ -83,12 +83,6 @@
 		<Unit filename="C:/Users/chris/CLionProjects/HuffmanCoder/main.cpp">
 			<Option target="HuffmanCoder"/>
 		</Unit>
-		<Unit filename="C:/Users/chris/CLionProjects/HuffmanCoder/textAnalyser.cpp">
-			<Option target="HuffmanCoder"/>
-		</Unit>
-		<Unit filename="C:/Users/chris/CLionProjects/HuffmanCoder/textAnalyser.h">
-			<Option target="HuffmanCoder"/>
-		</Unit>
 		<Unit filename="C:/Users/chris/CLionProjects/HuffmanCoder/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

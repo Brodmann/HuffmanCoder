@@ -6,7 +6,7 @@
 #include <vector>
 #include <queue>
 
-void printCode(std::map<char, int> map) { //just to see what value each char has
+void printCode(const std::map<char, int>& map) { //just to see what value each char has
     for (const auto&[key, value]: map) {
         std::cout << key << " : " << value << std::endl;
     }
@@ -21,7 +21,7 @@ struct TreeNode{
 };
 
 TreeNode * getNode(int freq, char letter, TreeNode *right, TreeNode *left){ //create new leaf for tree
-    TreeNode *node = new TreeNode();
+    auto *node = new TreeNode();
     node->freq = freq;
     node->letter = letter;
     node->left = left;
@@ -37,7 +37,7 @@ struct comparator { //to order heap by comparing frequency of the nodes
 
 };
 
-void createHuffman(TreeNode *root, std::string str, std::map<char, std::string> &huffmanCode){
+void createHuffman(TreeNode *root, const std::string& str, std::map<char, std::string> &huffmanCode){
 
     if(root == nullptr){ //if root points at nothing return nothing
         return;
@@ -50,13 +50,13 @@ void createHuffman(TreeNode *root, std::string str, std::map<char, std::string> 
     createHuffman(root->right, str + "1", huffmanCode); // travel to right child add 1 to string
 }
 
-void minHeap(std::map<char, int> list) {
+void minHeap(const std::map<char, int>& list) {
     std::priority_queue<TreeNode*, std::vector<TreeNode*>, comparator> minimumHeap;
     for (auto val: list){
         minimumHeap.push(getNode(val.second, val.first, nullptr, nullptr));
     }
 
-    while(!minimumHeap.size() != 1){ //repeat until only one node is left
+    while(minimumHeap.size() != 1){ //repeat until only one node is left
 //remove the two nodes with minimum value from minimumHeap and save them in left and right node
         TreeNode *left = minimumHeap.top();
         minimumHeap.pop();
@@ -92,15 +92,12 @@ std::map<char, int> sortingChar(std::string text) {
                 list.insert(std::make_pair(c, 1));
             } else {      //char does exist increase value of char
                 auto it = list.find(c);
-                //if (it != list.end()) {
                 it->pair::second++;
-                //}
             }
         }
     }
     printCode(list);
     minHeap(list);
-
     return list;
 }
 
