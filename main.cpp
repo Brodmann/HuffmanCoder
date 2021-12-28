@@ -107,8 +107,6 @@ std::map<char, int> sortingChar(std::string text) {
 int main() {
     // std::string str;
     // std::getline(std::cin, str);
-
-
     sortingChar("hello world");
 
     return 0;
